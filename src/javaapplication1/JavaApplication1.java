@@ -7,7 +7,7 @@ package javaapplication1;
 
 /**
  *
- * @author mariha
+ * @author marijaa
  */
 public class JavaApplication1 {
 
@@ -15,7 +15,11 @@ public class JavaApplication1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+             for (int c = 1; c <= 10; c++) {
+                 System.out.println(c);
+                 
+                 
+             }
     }
     
 }
