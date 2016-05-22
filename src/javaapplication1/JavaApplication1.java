@@ -31,6 +31,7 @@ public class JavaApplication1 {
         x1 = in.nextLine();
 
         System.out.println("Enter second large number");
+        System.out.println("*************************");
         x2 = in.nextLine();
    }
                  
