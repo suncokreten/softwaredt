@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package javaapplication1;
-
+import java.util.Scanner;
 /**
  *
  * @author marijaa
@@ -15,11 +15,17 @@ public class JavaApplication1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-             for (int c = 1; c <= 10; c++) {
-                 System.out.println(c);
-                 
+        for (int c = 1; c <= 10; c++) {
+            System.out.println(c);
+        }
+        int x, y, z;
+        System.out.println("Enter two integers for calculating ");
+        Scanner in = new Scanner(System.in);
+        x = in.nextInt();
+        y = in.nextInt();
+        z = x + y;
+        System.out.println("Sum of entered integers = "+z);
+   }
                  
              }
-    }
-    
-}
+
