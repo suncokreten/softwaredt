@@ -23,8 +23,15 @@ public class JavaApplication1 {
         Scanner in = new Scanner(System.in);
         x = in.nextInt();
         y = in.nextInt();
-        z = x + y;
+        z = x * y + x - 2*y;
         System.out.println("Sum of entered integers = "+z);
+        String x1, x2;
+   
+        System.out.println("Enter first large number");
+        x1 = in.nextLine();
+
+        System.out.println("Enter second large number");
+        x2 = in.nextLine();
    }
                  
              }
